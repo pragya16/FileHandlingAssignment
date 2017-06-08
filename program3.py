@@ -8,11 +8,10 @@ def file_read(fname):
                 t1.write("Java Exercises is good for increase knowldge")  
         txt = open(fname)  
         print(txt.read())  
-file_read('test.txt')  
+print file_read('test.txt')  
 
 '''
 output:
 [root@demo FileHandlingAssignment]# python program3.py
-Python Exercises is good for learning python
-Java Exercises is good for increase knowldge
+
 '''
