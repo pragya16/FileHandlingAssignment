@@ -12,5 +12,7 @@ file_read('test.txt')
 
 '''
 output:
-
+[root@demo FileHandlingAssignment]# python program3.py
+Python Exercises is good for learning python
+Java Exercises is good for increase knowldge
 '''
