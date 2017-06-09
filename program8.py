@@ -2,13 +2,14 @@
 
 
 def Word():
-    file=  open('text.txt','r')
+    f= "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language"
     long=''
-    for line in file:
-        if len(line)>len(long):
-            long=line
+    for l in f:
+        if len(l)>len(long):
+            long=l
     return long
 print Word()
+
 
 '''
 output:
