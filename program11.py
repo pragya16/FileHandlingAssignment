@@ -3,7 +3,7 @@
 file=open("text.txt","w+")
 for item in file:
   file.write("%s\n" % item)
-print >> file ,item
+print >> file , item
 
 '''
 output:
