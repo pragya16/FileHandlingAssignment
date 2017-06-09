@@ -3,7 +3,7 @@
 
 def Word():
     f= "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language"
-   long = ''
+    long = ''
 for word in f.split():
     if len(word) > long:
        long = len(word)
