@@ -3,12 +3,12 @@
 
 def Word():
     f= "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language"
-    long=''
-    for l in f:
-        if len(l)>len(long):
-            long=l
-    return long
-print Word()
+   long = 0
+for word in f.split():
+    if len(word) > long:
+       long = len(word)
+       longest_word_here = word
+print( "The longest word is %s" % longest_word_here)
 
 
 '''
