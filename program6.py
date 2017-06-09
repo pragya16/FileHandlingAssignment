@@ -4,6 +4,7 @@ with open ("test1.txt", "r") as file:
     str=file.readlines()
     print(str)
     
+    
     '''
     output:
     '''
