@@ -1,3 +1,4 @@
+
 # Question 11 :Write a Python program to write a list to a file
 
 
@@ -13,5 +14,11 @@ print(content.read())
 
 '''
 output:
-
+[root@demo FileHandlingAssignment]# python program11.py 
+apple
+mango
+banana
+watermelon
+papaya
+lichi
 '''
