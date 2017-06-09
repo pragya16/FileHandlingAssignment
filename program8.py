@@ -5,9 +5,9 @@ def Word():
     file=  open('text.txt','r')
     long=''
     for line in file:
-    if len(line)>len(long):
+        if len(line)>len(long):
         long=line
-    return long
+return long
 print word()
 
 '''
