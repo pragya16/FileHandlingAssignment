@@ -6,7 +6,7 @@ def Word():
     long=''
     for line in file:
         if len(line)>len(long):
-        long=line
+            long=line
 return long
 print word()
 
