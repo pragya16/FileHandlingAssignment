@@ -3,8 +3,8 @@
 
 from shutil import copyfile
 
-copyfile('text.txt', 'abc.txt')
-seek(0,0)
+str = copyfile('text.txt', 'abc.txt')
+str.seek(0,0)
 print read('abc.txt')
 
 '''
