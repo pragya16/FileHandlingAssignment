@@ -7,7 +7,7 @@ def Word():
     for line in file:
         if len(line)>len(long):
             long=line
-return long
+    return long
 print word()
 
 '''
