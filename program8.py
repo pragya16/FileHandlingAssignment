@@ -2,9 +2,9 @@
 
 
 def Word():
-    f= "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language"
+    text= "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language"
     long = ''
-for word in f.split():
+for word in text.split():
     if len(word) > long:
        long = len(word)
        longest_word_here = word
