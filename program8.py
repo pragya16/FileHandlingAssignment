@@ -8,7 +8,7 @@ def Word():
         if len(line)>len(long):
             long=line
     return long
-print word()
+print Word()
 
 '''
 output:
