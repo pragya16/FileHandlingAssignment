@@ -1,4 +1,5 @@
 
+
 # Question 12 : Write a Python program to copy the contents of a file to another file
 
 from shutil import copyfile
@@ -11,5 +12,12 @@ copyfile('text.txt', 'abc.txt')
 
 '''
 output:
+[root@demo FileHandlingAssignment]# cat abc.txt
+apple
+mango
+banana
+watermelon
+papaya
+lichi
 
 '''
