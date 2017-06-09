@@ -3,9 +3,11 @@
 
 from shutil import copyfile
 
-str = copyfile('text.txt', 'abc.txt')
-str.seek(0,0)
-print read('abc.txt')
+import os
+
+os.system("touch abc.txt ")
+copyfile('text.txt', 'abc.txt')
+
 
 '''
 output:
