@@ -2,7 +2,7 @@
 
 from shutil import copyfile
 
-copyfile('text.py', 'abc.py')
+copyfile('text.txt', 'abc.txt')
 
 '''
 output:
