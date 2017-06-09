@@ -7,4 +7,4 @@ print str.st_size
 
 '''
 output:
-
+'''
