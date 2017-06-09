@@ -1,4 +1,5 @@
 
+
 # Question 15 : Write a Python program to assess if a file is closed or not
 
 
@@ -13,5 +14,9 @@ print(f1.closed)
 
 '''
 output:
-
+[root@demo FileHandlingAssignment]# python program15.py
+False
+False
+True
+True
 '''
