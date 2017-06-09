@@ -15,5 +15,9 @@ file_read('test.txt')
 
 '''
 output:
-
+[root@demo FileHandlingAssignment]# python program5.py
+['Python Exercises is good for learning python\n',
+'Java Exercises is good for increase knowldgePython Exercises is good for learning python\n',
+'Java Exercises is good for increase knowldgePython Exercises is good for learning python\n',
+'Java Exercises is good for increase knowldge']
 '''
